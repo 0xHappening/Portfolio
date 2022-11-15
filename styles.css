@@ -3,6 +3,7 @@ html, body {
 }
 
 body {
+   display: grid;
     background-color: #1e1e1e;
     color: #fafafa;
     font-family: monospace;
@@ -96,10 +97,11 @@ h2 {
 
 #bio {
     text-align: center;
-    padding: 10%;
+    margin: 10%;
 }
 
 #biopic {
+    display: grid;
     padding: 10%;
     align-items: center;
     justify-content: center;
