@@ -1,0 +1,159 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: #1e1e1e;
+    color: #fafafa;
+    font-family: monospace;
+    font-size: larger;
+    
+}
+
+a:link, a:visited {
+    background-color: #fafafa;
+    color: #1e1e1e;
+    padding: 14px 25px ;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: #fafafa;
+}
+
+header {
+    background-color: #fafafa;
+    color: #1e1e1e;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+      
+
+}
+
+h1 {
+    font-size: 40pt;
+    color: #fafafa;
+  
+
+}
+
+h2 {
+    font-size: 20pt;
+    color: #fafafa;
+  
+
+
+}
+
+
+#container {
+    display: flex;
+    flex: auto;
+    margin: 20%;
+    flex-direction: row;
+    width: 20%;
+}
+
+#containerskills {
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10%;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    border: 1px #fafafa solid;
+    height: 40px;
+    width: 120px;
+    padding: 10px;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.spacewhite {
+    height: 10px;
+    background-color: #fafafa;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+#containerbio {
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+}
+
+#bio {
+    text-align: left;
+    padding: 10%;
+}
+
+#biopic {
+    padding: 10%;
+}
+
+#listwork  {
+    height: 100vh;
+    padding: 5%;
+}
+
+img {
+    align-items: center;
+    width: 400px;
+    
+}
+
+footer {
+    background-color: #1e1e1e;
+    color: #fafafa;
+    text-align: center;
+    padding: 2px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+
+
+@media only screen and (min-width: 992px){
+    #containerbio {
+        display: flex;
+        flex: auto;
+        flex-direction: row;
+    }
+    body {
+        background-color: #1e1e1e;
+        background-image: url("Background.png");
+        background-repeat: no-repeat;
+        background-position: top;
+        color: #fafafa;
+        font-family: monospace;
+        font-size: larger;
+        
+    }
+    h1 {
+        font-size: 40pt;
+        color: #fafafa;
+    }
+
+    header {
+        background-color: #fafafa;
+        color: #1e1e1e;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 1.2%;
+          
+    
+    }
+}
+    
+
+
