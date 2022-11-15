@@ -73,9 +73,9 @@ h2 {
     display: flex;
     border: 1px #fafafa solid;
     height: 40px;
-    width: 96px;
-    padding: 10px;
-    margin: 10px;
+    width: 92px;
+    padding: 8px;
+    margin: 8px;
     justify-content: center;
     align-items: center;
 }
